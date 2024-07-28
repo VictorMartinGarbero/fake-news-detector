@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fake-news-detector"
+version = "0.1.0"
+description = "Project to detect fake news"
+authors = ["Victor Martin <vixtormartingarbero@outlook.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
