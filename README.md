@@ -29,6 +29,23 @@ The project uses the [Fake News Detection Dataset](https://www.kaggle.com/clment
 
 ## Installation
 
+Thgis projest uses
+- numpy
+- scikit-learn
+- matplotlib
+
+You can install this libraries using `pip`:
+
+   ```bash
+   pip install .
+   ```
+
+   You can also install these libraries with `poetry`:
+   
+   ```bash
+   poetry install
+   ```
+
 To set up the project locally, follow these steps:
 
 1. **Clone the Repository**
