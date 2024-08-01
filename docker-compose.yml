@@ -1,0 +1,9 @@
+services:
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow
+    ports:
+      - 5000:5000
+    command: mlflow server
+
+# Para lanzarlo docker-compose up
