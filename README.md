@@ -74,6 +74,14 @@ Follow the instructions in setup_database.md to configure the database.
 To run the project, execute the following command:
 
 python app.py
+
+## Using docker
+This project provides a docker-compose.yml flie to run the project in a docker container. To run the project in a docker container follow these steps:
+
+```bash
+docker-compose up
+```
+
 # Web Interface
 Open a web browser and go to http://localhost:5000 to access the user interface.
 Enter a news article in the input field and click "Analyze" to determine if it's fake or real.
